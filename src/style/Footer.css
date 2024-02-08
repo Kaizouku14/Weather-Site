@@ -1,0 +1,23 @@
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 20px;
+}
+
+.Copyright{
+    font-size: 0.80rem;
+    color:#acaaaa
+}
+
+a{ 
+    color: white;
+    cursor: pointer;
+    font-size: 1.20rem;
+    margin-right: 5px;
+ }
+ 
+ a:hover{
+      color: #acaaaa;
+ }
