@@ -1,13 +1,9 @@
-import SearchBar from './components/SearchBar'
-import Content from './components/Weather'
-import Footer from './components/Footer'
+import SearchBar from './components/searchBar'
 function App() {
  
   return (
     <>
        <SearchBar/>
-       <Content/>
-       <Footer/>
     </>
   )
 }
