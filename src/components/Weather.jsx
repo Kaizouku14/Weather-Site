@@ -20,9 +20,11 @@ const Content = ({clickedData}) => {
 
   useEffect(() => {
     if (clickedData) {
+
       fetchData(clickedData)
         .then(res => setData(res))
         .catch(err => console.error(err));
+        
     } else {
 
       fetchData(location)

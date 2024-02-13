@@ -24,18 +24,23 @@ const SearchBar = ({ onSearchBarClick }) => {
           setSearchResult([]);
           setShowList(false);     
         });
+        
     } else {
+
       setSearchValue(inputValue);
       setSearchResult([]);
-      setShowList(false);     
+      setShowList(false);   
+
     }
   };
 
   const handleClick = (value) => {
+
     const data = value;
     onSearchBarClick(data);
     setSearchValue('')
     setSearchResult([]);
+
   };
 
  
@@ -60,4 +65,4 @@ const SearchBar = ({ onSearchBarClick }) => {
   );
 };
 
-export default SearchBar;
+export default SearchBar
