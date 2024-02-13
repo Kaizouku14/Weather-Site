@@ -26,7 +26,6 @@ input:focus{
     background-color: white;
     box-shadow: rgba(160, 155, 155, 0.24) 0px 3px 8px;
     color: black;   
-    margin-left: 12px;
     z-index: 1;
     position: absolute; 
     top: 40px;
@@ -34,7 +33,7 @@ input:focus{
     border-bottom-right-radius: 7px;
 }
 
- .search-bar .list div{
+ .search-bar .list div {
    padding: 10px 0 10px 10px;
    font-size: 0.70rem;
    transition: background-color 0.15sec;

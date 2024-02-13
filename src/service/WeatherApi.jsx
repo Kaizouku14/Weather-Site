@@ -3,6 +3,7 @@ import axios from "axios";
 
 const KEY = '46269525cdbe4d58a4b80104242101'
 const URL = 'https://api.weatherapi.com/v1/'
+
 export const fetchLocation = async () => {
     return await axios.get('https://ipapi.co/json/')
     .then(response => response.data)
