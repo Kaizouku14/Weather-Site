@@ -27,5 +27,5 @@ npm start
    - React
 
 ## Credits 
-   -- Special thanks to [Weather API](https://www.weatherapi.com) for providing the weather forecast data for this project.
+   - Special thanks to [Weather API](https://www.weatherapi.com) for providing the weather forecast data for this project.
 
