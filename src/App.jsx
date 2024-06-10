@@ -3,7 +3,6 @@ import Footer from './components/Footer'
 import Content from './components/Weather'
 import React, { useState } from 'react';
 
-
 function App() {
   const [clickedData, setClickedData] = useState('');
 
