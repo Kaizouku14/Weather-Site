@@ -1,8 +1,31 @@
-# React + Vite
+# Weather Wise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Weather Wise is a React-based weather forecast web application that empowers users to retrieve weather information for their desired locations via Weather API.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run the application locally, follow these steps:
+
+1. Clone this repository and acquire your API key from Weather API.
+2. Alternatively, feel free to use my API key, which is freely accessible.
+3. Execute the following commands in your terminal
+
+```bash
+npm install
+npm start
+```
+
+## Usage
+
+### Weather Forecast
+ Gain insights into the current weather conditions for both your current location and any location you search for.
+
+## Technologies Used
+   - HTML
+   - CSS
+   - JavaScript
+   - React
+
+## Credits 
+   - Special thanks to [Weather API](https://www.weatherapi.com) for providing the weather forecast data for this project.
+
